@@ -1,5 +1,7 @@
 # 🌐 GCP Public Web Server Deployment
 
+Loadbalancer IP: http://35.244.152.23/
+
 This project deploys a publicly accessible, secure web server on Google Cloud Platform using **Terraform** and optionally **Ansible**. The server is protected by a global HTTP Load Balancer and serves a static HTML page, with optional integration with a GCS bucket for content.
 
 ---
