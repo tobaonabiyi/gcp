@@ -1,0 +1,6 @@
+prj_id = "toba-project-466015"
+region = "us-central1"
+service_account = "keys.json"
+vpc_name = "stack-armor-vpc"
+ip_cidr_range = "10.10.0.0/24"
+subnet_name = "stack-armor-subnet"

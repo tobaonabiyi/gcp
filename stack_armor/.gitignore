@@ -1,0 +1,20 @@
+# Ignore Terraform state & cache
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+
+# Ignore service account keys or credentials
+*.json
+
+# Ignore Ansible cache (if used)
+*.retry
+*.log
+
+# Ignore OS/system files
+.DS_Store
+Thumbs.db
+
+# Ignore any SSH keys
+*.pem
+*.pub
